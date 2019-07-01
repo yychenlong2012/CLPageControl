@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E2A341422C9A60100572C64 /* CLPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2A341322C9A60100572C64 /* CLPageControl.m */; };
 		4E60233622C72B600040AF03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E60233522C72B600040AF03 /* AppDelegate.m */; };
 		4E60233922C72B610040AF03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E60233822C72B610040AF03 /* ViewController.m */; };
 		4E60233C22C72B610040AF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E60233A22C72B610040AF03 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		4E60234422C72B760040AF03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E60234322C72B760040AF03 /* main.m */; };
 		4E60234E22C72B770040AF03 /* CLPageControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E60234D22C72B770040AF03 /* CLPageControlTests.m */; };
 		4E60235922C72B770040AF03 /* CLPageControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E60235822C72B770040AF03 /* CLPageControlUITests.m */; };
-		4E60236822C734670040AF03 /* CLPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E60236722C734670040AF03 /* CLPageControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E2A341222C9A60100572C64 /* CLPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPageControl.h; sourceTree = "<group>"; };
+		4E2A341322C9A60100572C64 /* CLPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPageControl.m; sourceTree = "<group>"; };
 		4E60233122C72B5F0040AF03 /* CLPageControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLPageControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E60233422C72B600040AF03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E60233522C72B600040AF03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,8 +54,6 @@
 		4E60235422C72B770040AF03 /* CLPageControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLPageControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E60235822C72B770040AF03 /* CLPageControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPageControlUITests.m; sourceTree = "<group>"; };
 		4E60235A22C72B770040AF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E60236622C734670040AF03 /* CLPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPageControl.h; sourceTree = "<group>"; };
-		4E60236722C734670040AF03 /* CLPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPageControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E2A341122C9A60100572C64 /* CLPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				4E2A341222C9A60100572C64 /* CLPageControl.h */,
+				4E2A341322C9A60100572C64 /* CLPageControl.m */,
+			);
+			path = CLPageControl;
+			sourceTree = "<group>";
+		};
 		4E60232822C72B5E0040AF03 = {
 			isa = PBXGroup;
 			children = (
@@ -113,8 +122,7 @@
 				4E60233F22C72B760040AF03 /* LaunchScreen.storyboard */,
 				4E60234222C72B760040AF03 /* Info.plist */,
 				4E60234322C72B760040AF03 /* main.m */,
-				4E60236622C734670040AF03 /* CLPageControl.h */,
-				4E60236722C734670040AF03 /* CLPageControl.m */,
+				4E2A341122C9A60100572C64 /* CLPageControl */,
 			);
 			path = CLPageControl;
 			sourceTree = "<group>";
@@ -270,7 +278,7 @@
 				4E60233922C72B610040AF03 /* ViewController.m in Sources */,
 				4E60234422C72B760040AF03 /* main.m in Sources */,
 				4E60233622C72B600040AF03 /* AppDelegate.m in Sources */,
-				4E60236822C734670040AF03 /* CLPageControl.m in Sources */,
+				4E2A341422C9A60100572C64 /* CLPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

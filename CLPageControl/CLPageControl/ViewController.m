@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "CLPageControl.h"
+#import "CLPageControl/CLPageControl.h"
 
 @interface ViewController ()<ClPageControlDelegate>
 
@@ -24,10 +24,10 @@
     page.numberOfPages = 7;
     page.pageIndicatorTintColor = [UIColor lightGrayColor];
     page.currentPageIndicatorTintColor = [UIColor redColor];
-    page.pointHeight = 20;
-    page.pointWeight = 20;
+    page.pointHeight = 2;
+    page.pointWeight = 10;
     page.currentPage = 1;
-    page.pointMargin = 10;
+    page.pointMargin = 5;
 //    page.pageIndicatorImageArray = @[@"normal",@"normal",@"normal",@"normal",@"normal",@"normal",@"normal"];
 //    page.currentPageIndicatorImageArray = @[@"select",@"select",@"select",@"select",@"select",@"select",@"select"];
     page.frame = CGRectMake(50, 50, 10*7+10*6, 20);
